@@ -4,6 +4,7 @@ import colors from 'tailwindcss/colors';
 
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
+import typography from '@tailwindcss/typography';
 
 const theme = {
     content: [
@@ -27,7 +28,7 @@ const theme = {
             },
         },
     },
-    plugins: [forms],
+    plugins: [forms, typography],
 } satisfies Config;
 
 export default theme;

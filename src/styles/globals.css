@@ -5,6 +5,10 @@
 body {
     @apply scroll-smooth;
 }
+
+p {
+    @apply font-body;
+}
 @layer utilities {
     .text-theme {
         @apply text-dark dark:text-light;
