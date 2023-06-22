@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+    @apply scroll-smooth;
+}
 @layer utilities {
+    .text-theme {
+        @apply text-dark dark:text-light;
+    }
+
     .text-gradient {
-        @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent !important
+        @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent !important;
     }
 }
-
